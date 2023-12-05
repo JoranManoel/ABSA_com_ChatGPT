@@ -6,7 +6,7 @@ dados = pd.read_csv('comments.csv', delimiter=";")
 
 feedbacks = dados['comments']
 
-openai_api_key = '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'
+openai_api_key = 'your_key'
 
 openai.api_key = openai_api_key
 
